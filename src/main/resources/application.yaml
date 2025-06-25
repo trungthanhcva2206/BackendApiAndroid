@@ -1,0 +1,17 @@
+server:
+  port: 6060
+  servlet:
+    context-path: /mobile
+
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/mobile"
+    username: root
+    password: Chuvanan220604
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  web:
+    resources:
+      static-locations: file:uploads/
